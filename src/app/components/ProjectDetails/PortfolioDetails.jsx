@@ -3,7 +3,7 @@ import { ProjectDetailNavBar } from "../Nav";
 import { getIconComponents } from "./Icons";
 
 function SentinelProject() {
-  const TechnologiesUsed = getIconComponents(["react", "tailwind", "nextjs", "githubhost"]);
+  const TechnologiesUsed = getIconComponents(["react", "tailwind", "nextjs", "githubhost", "javascript"]);
 
   return (
     <div className="w-full h-full flex flex-col items-center">

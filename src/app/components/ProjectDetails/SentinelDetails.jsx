@@ -27,10 +27,9 @@ function SentinelProject() {
         <div className="bg-gray-50 p-6 rounded-lg shadow-md space-y-6">
           <h2 className="text-2xl font-semibold mb-4 text-center">Project Overview</h2>
           <p className="mb-6 text-center">
-            The Defi Sentinel Token Validator is a comprehensive solution that
-            provides secure transaction validation through smart contracts. This
-            project was developed during my internship at Netki and serves as a
-            foundational security layer for blockchain applications.
+             This project was made to a compliment to the main DeFi Sentinel workflow. In which a transaction on a blockchain
+             is sent through Sentinel to be reviewed for SEC compliance and given a hashed verification token including a bunch of information. This token is then processed
+             using the token validator that I created in order to verify all the information step by step before entering the main chain.
           </p>
           <h2 className="text-2xl font-semibold mb-4 mt-6 text-center">
             Project Links

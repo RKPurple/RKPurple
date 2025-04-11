@@ -1,7 +1,7 @@
 import React from "react";
 import { SiSolidity,  SiWeb3Dotjs, SiDjango, SiGithubactions, SiGooglecloud, SiJirasoftware } from "react-icons/si";
 import { FaReact, FaPython, FaDocker } from "react-icons/fa";
-import { RiTailwindCssLine, RiNextjsLine, RiFirebaseFill} from "react-icons/ri";
+import { RiTailwindCssLine, RiNextjsLine, RiFirebaseFill, RiVercelLine} from "react-icons/ri";
 import { VscGithub } from "react-icons/vsc";
 import { DiJavascript } from "react-icons/di";
 
@@ -25,6 +25,7 @@ const iconsObject = [
     { id: "javascript", icon: <DiJavascript />, title: "JavaScript" },
     { id: "jira", icon: <SiJirasoftware />, title: "Jira" },
     { id: "githubsc", icon: <VscGithub />, title: "GitHub Source Control" },
+    { id: "vercel", icon: <RiVercelLine />, title: "Vercel" },
 
     // Add more as needed
 ];

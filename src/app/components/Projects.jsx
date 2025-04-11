@@ -41,7 +41,7 @@ function Projects() {
             id: "pikachu",
             title: "Pikachu Chatbot",
             image: "./images/Pikachu_Logo.png",
-            description: "."
+            description: "A fullstack pikachu chatbot, created as a team project for my DevOps class using DevSecOps practices."
         }
     ];
 

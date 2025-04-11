@@ -3,7 +3,7 @@ import { ProjectDetailNavBar } from "../Nav";
 import { getIconComponents } from "./Icons";
 
 function SentinelProject() {
-  const TechnologiesUsed = getIconComponents(["react", "tailwind", "nextjs", "githubhost", "javascript"]);
+  const TechnologiesUsed = getIconComponents(["react", "tailwind", "nextjs", "vercel", "javascript"]);
 
   return (
     <div className="w-full h-full flex flex-col items-center">
@@ -30,6 +30,7 @@ function SentinelProject() {
             My personal portfolio website to showcase my projects and skills. Constantly being updated with new projects as well as overall
             design and functionality upgrades when I have time.
           </p>
+          <p className="mb-6 text-center">Currently just working on the web side of the application, next step is to make it more mobile friendly</p>
           <h2 className="text-2xl font-semibold mb-4 mt-6 text-center">
             Project Links
           </h2>

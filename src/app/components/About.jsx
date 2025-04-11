@@ -12,7 +12,8 @@ function About() {
             </div>
             <div className="bio-text">
                 <h1>Rohan Kallur</h1>
-                <p>You wanna hire me so bad</p>
+                <p >I'm a senior at Stevens Institute of Technology, studying Computer Science with a minor in Finance. You wanna hire me so bad.
+                </p>
             </div>
         </div>
     )

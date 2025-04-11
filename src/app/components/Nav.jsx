@@ -4,18 +4,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
+import { useEffect } from 'react';
 
 function NavigationBar() {
     const logoSize = 50;
 
-    const [activeKey, setActiveKey] = React.useState(() => {
+    const [activeKey, setActiveKey] = React.useState("1");
+
+    useEffect(() => {
         const hash = window.location.hash;
-        if (hash === '#projects') return "2";
-        if (hash === '#about' || hash === '') return "1";
-        if (hash.includes('resume')) return "3";
-        return "1"; // Default to About
-    });
+        if (hash === '#projects') setActiveKey("2");
+        else if (hash === '#about' || hash === '') setActiveKey("1");
+        else if (hash.includes('resume')) setActiveKey("3");
+    }, []);
+    
 
     const scrollToTop = (e) => {
         e.preventDefault();
@@ -130,7 +133,7 @@ function ProjectDetailNavBar() {
     return (
         <Navbar fixed="top" expand="lg" className="bg-white">
             <Container>
-                <Link to="/#projects" className="navbar-brand" >
+                <Link href="/#projects" className="navbar-brand" >
                     <div className="d-flex align-items-center">
                         <i className="bi bi-arrow-left me-2"></i>
                         Back to Projects

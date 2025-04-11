@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const projectContainer = {
     backgroundColor: "transparent",
@@ -14,8 +14,8 @@ const projectContainer = {
     flexDirection: "row",
     alignItems: "center",
     gap: "16px",
-    cursor: "pointer", // Add cursor pointer to indicate clickable
-    transition: "transform 0.2s, box-shadow 0.2s", // Add smooth transition for hover effect
+    cursor: "pointer",
+    transition: "transform 0.2s, box-shadow 0.2s",
 };
 
 const projectHoverStyle = {
@@ -24,7 +24,6 @@ const projectHoverStyle = {
 };
 
 function Projects() {
-    // Projects data
     const projectsData = [
         {
             id: "sentinel",
@@ -44,7 +43,6 @@ function Projects() {
             image: "./images/Pikachu_Logo.png",
             description: "."
         }
-        // Add more projects as needed
     ];
 
     return (
@@ -53,7 +51,7 @@ function Projects() {
                 {projectsData.map(project => (
                     <Link 
                         key={project.id}
-                        to={`/project/${project.id}`} 
+                        href={`/project/${project.id}`} 
                         style={{ textDecoration: "none", color: "inherit" }}
                     >
                         <div 

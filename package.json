@@ -1,14 +1,11 @@
 {
-  "homepage": "http://RKPurple.github.io/RKPurple",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {

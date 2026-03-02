@@ -32,6 +32,12 @@ function Projects() {
             description: "My summer 2024 internship project, in which I created an open source smart contract for clients to implement into their smart contracts to verify their transcations."
         },
         {
+            id: "redrafter",
+            title: "NBA Redrafting Website",
+            image: "./images/Redrafter_Logo.png",
+            description: "Fullstack website that allows users to redraft different NBA draft classes."
+        },
+        {
             id: "portfolio",
             title: "Portfolio Website",
             image: "./images/Portfolio_Logo.png",
@@ -42,7 +48,7 @@ function Projects() {
             title: "Pikachu Chatbot",
             image: "./images/Pikachu_Logo.png",
             description: "A fullstack pikachu chatbot, created as a team project for my DevOps class using DevSecOps practices."
-        }
+        },
     ];
 
     return (

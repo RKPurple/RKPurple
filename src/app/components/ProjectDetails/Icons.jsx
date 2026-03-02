@@ -1,5 +1,5 @@
 import React from "react";
-import { SiSolidity,  SiWeb3Dotjs, SiDjango, SiGithubactions, SiGooglecloud, SiJirasoftware } from "react-icons/si";
+import { SiSolidity,  SiWeb3Dotjs, SiDjango, SiGithubactions, SiGooglecloud, SiJirasoftware, SiVite, SiTypescript, SiFastapi, SiPostgresql, SiRender } from "react-icons/si";
 import { FaReact, FaPython, FaDocker } from "react-icons/fa";
 import { RiTailwindCssLine, RiNextjsLine, RiFirebaseFill, RiVercelLine} from "react-icons/ri";
 import { VscGithub } from "react-icons/vsc";
@@ -7,27 +7,44 @@ import { DiJavascript } from "react-icons/di";
 
 
 const iconsObject = [
+    // Languages
+    { id: "javascript", icon: <DiJavascript />, title: "JavaScript" },
+    { id: "typescript", icon: <SiTypescript />, title: "TypeScript" },
+    { id: "python", icon: <FaPython />, title: "Python" },
     { id: "solidity", icon: <SiSolidity />, title: "Solidity" },
+
+    // Frontend Frameworks & Libraries
+    { id: "react", icon: <FaReact />, title: "React" },
+    { id: "nextjs", icon: <RiNextjsLine />, title: "Next.js" },
+    { id: "tailwind", icon: <RiTailwindCssLine />, title: "Tailwind CSS" },
+    { id: "vite", icon: <SiVite />, title: "Vite" },
+
+    // Backend Frameworks
+    { id: "django", icon: <SiDjango />, title: "Django" },
+    { id: "fastapi", icon: <SiFastapi />, title: "FastAPI" },
     { id: "web3", icon: <SiWeb3Dotjs />, title: "Web3.js" },
+    { id: "playwright", icon: <img src="/images/Playwright_Logo.png" className="w-27 h-auto" style={{ filter: "invert(67%) sepia(60%) saturate(400%) hue-rotate(155deg) brightness(95%) contrast(90%)" }} />, title: "Playwright" },
+
+    // Databases
+    { id: "postgresql", icon: <SiPostgresql />, title: "PostgreSQL" },
+    { id: "firebase", icon: <RiFirebaseFill />, title: "Firebase" },
+
+    // Infrastructure & DevOps
+    { id: "docker", icon: <FaDocker />, title: "Docker" },
+    { id: "googlecloud", icon: <SiGooglecloud />, title: "Google Cloud" },
+    { id: "githubactions", icon: <SiGithubactions />, title: "GitHub Actions" },
+
+    // Hosting & Deployment
+    { id: "vercel", icon: <RiVercelLine />, title: "Vercel" },
+    { id: "render", icon: <SiRender />, title: "Render" },
+    { id: "githubhost", icon: <VscGithub />, title: "GitHub Hosting" },
+
+    // Tools & Blockchain Dev
     { id: "remixide", icon: <img src="/images/RemixIDE_Logo.png" className="w-27 h-auto"/>, title: "Remix IDE" },
     { id: "truffle", icon: <img src="/images/Truffle_Logo.png" className="w-27 h-auto"/>, title: "Truffle" },
     { id: "ganache", icon: <img src="/images/Ganache_Logo.png" className="w-27 h-auto"/>, title: "Ganache" },
-    { id: "react", icon: <FaReact />, title: "React" },
-    { id: "tailwind", icon: <RiTailwindCssLine />, title: "Tailwind CSS" },
-    { id: "nextjs", icon: <RiNextjsLine />, title: "Next.js" },
-    { id: "githubhost", icon: <VscGithub />, title: "GitHub Hosting" },
-    { id: "python", icon: <FaPython />, title: "Python" },
-    { id: "django", icon: <SiDjango />, title: "Django" },
-    { id: "githubactions", icon: <SiGithubactions />, title: "GitHub Actions" },
-    { id: "firebase", icon: <RiFirebaseFill />, title: "Firebase" },
-    { id: "googlecloud", icon: <SiGooglecloud />, title: "Google Cloud" },
-    { id: "docker", icon: <FaDocker />, title: "Docker" },
-    { id: "javascript", icon: <DiJavascript />, title: "JavaScript" },
-    { id: "jira", icon: <SiJirasoftware />, title: "Jira" },
     { id: "githubsc", icon: <VscGithub />, title: "GitHub Source Control" },
-    { id: "vercel", icon: <RiVercelLine />, title: "Vercel" },
-
-    // Add more as needed
+    { id: "jira", icon: <SiJirasoftware />, title: "Jira" },
 ];
 
 /**

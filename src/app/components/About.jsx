@@ -12,7 +12,8 @@ function About() {
             </div>
             <div className="bio-text">
                 <h1>Rohan Kallur</h1>
-                <p >I'm a senior at Stevens Institute of Technology, studying Computer Science with a minor in Finance.</p>
+                <p>I'm a recent grad from Stevens Institute of Technology, with a Bachelor's in Computer Science and a Minor in Finance.</p>
+                <p>Certified V4 climber and bucket getter, tryna find a job so I can move out of my mom's basement :D</p>
                 <p>You wanna hire me so bad.</p>
             </div>
         </div>

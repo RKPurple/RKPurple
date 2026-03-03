@@ -61,7 +61,7 @@ function NavigationBar() {
                         
                         {/* Social Icons - will be visible on smaller screens */}
                         <div className="d-lg-none mt-3 d-flex justify-content-start">
-                            <Nav.Link href="mailto:rkallur@stevens.edu" className="me-3">
+                            <Nav.Link href="mailto:rkallur135@gmail.com" className="me-3">
                                 <img 
                                     src="./images/Email_Logo.png" 
                                     width={logoSize}
@@ -94,7 +94,7 @@ function NavigationBar() {
 
                 {/* Social Icons - will be visible on larger screens */}
                 <div className="d-none d-lg-flex align-items-center">
-                    <Navbar.Brand href="mailto:rkallur@stevens.edu" className="me-2">
+                    <Navbar.Brand href="mailto:rkallur135@gmail.com" className="me-2">
                         <img 
                             src="./images/Email_Logo.png" 
                             width={logoSize}
@@ -144,7 +144,7 @@ function ProjectDetailNavBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                 {/* Social Icons on the right */}
                 <div className="d-flex align-items-center ms-auto">
-                    <Navbar.Brand href="mailto:rkallur@stevens.edu" className="me-2">
+                    <Navbar.Brand href="mailto:rkallur135@gmail.com" className="me-2">
                         <img 
                             src="../images/Email_Logo.png" 
                             width={logoSize}
